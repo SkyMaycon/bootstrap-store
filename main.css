@@ -1,0 +1,24 @@
+.card {
+    margin-top: 17px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.novidads {
+    margin-top: 20px;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .col-4 {
+        display: block;
+        
+        width: 100%;
+    }
+}

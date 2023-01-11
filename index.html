@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>EBAC Games</h1>
+                <button type="button" class="navbar-toggler"  data-bs-toggle="collapse"data-bs-target= "#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a href="#inc" class="nav-link active">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#produtos" class="nav-link">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#promos" class="nav-link">Novidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <header class="cabecalho">
+        <div id="carousel-exple" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div data-bs-interval="3000" class="carousel-item active"> <!-- ativivação do slade -->
+                    <img class="d-block w-100" src="https://files.tecnoblog.net/wp-content/uploads/2019/09/minecraft-001.jpg"> <!--<img class="d-block w-100" src= add tamanho na IMG -->
+                    <div class="carousel-caption d-md-block"><!-- add nome na iMG -->
+                    </div>
+                </div>
+                
+                <div data-bs-interval="3000" class="carousel-item"> <!-- tempo do passagem -->
+                    <img class="d-block w-100" src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg"> <!--<img class="d-block w-100" src= add tamanho na IMG -->
+                    <div class="carousel-caption d-md-block"> <!-- add nome na iMG -->
+                    </div>
+                </div>
+            </div>
+
+            <button data-bs-target="#carousel-exple" data-bs-slide="prev" class="carousel-control-prev" type="button"> <!-- botao anterior -->
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button data-bs-target="#carousel-exple" data-bs-slide="next" class="carousel-control-next" type="button"> <!-- botao proximo -->
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            <div class="carousel-indicators">  <!-- Indicadore na IMG -->
+                    <button type="button" data-bs-target="#carousel-emple" class="active" data-bs-slide-to="0">   <!-- ativivação do botao -->
+                    <button type="button" data-bs-target="#carousel-emple" data-bs-slide-to="1">
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <h1 id="promos" class="novidads">Novidades</h1>
+        <div class="row ">
+            <div class="col-4 ">
+                <article class="card">
+                    
+                    <img class="img-game" src="./Imagens/valoras.webp">
+                    <div class="card-body">
+                        <h4 class="card-title">Valorant</h4>  <!-- Titulo -->
+                        <!--<h5 class="card-subtitle">Subtitulo do Card</h5>  subtitulo -->
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eos? Beatae dolorum, assumenda numquam eum tenetur molestias 
+                        </p>
+                        
+                    </div>
+                    <footer class="card-footer">
+                        <p>
+                        <strong>Gratuito</strong>
+                        </p>
+                        <button type="button" class="btn btn-success">Adicionar ao Carinho</button>
+                    </footer>
+                </article>
+            </div>
+
+            <div class="col-4">
+                <article class="card">
+                    
+                    <img class="img-game" src="./Imagens/Fifa.webp">
+                    <div class="card-body">
+                        <h4 class="card-title">Fifa 23</h4>  <!-- Titulo -->
+                        <!--<h5 class="card-subtitle">Subtitulo do Card</h5>  subtitulo -->
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur yes good morning adipisicing elit. Ullam, id dolor temporibus accusantium 
+                        </p>
+                    </div>
+
+                    <footer class="card-footer">
+                        <p>
+                            <del>R$: 350,00</del>
+                        <strong>R$: 249,99</strong>
+                        </p>
+                        <button type="button" class="btn btn-success">Adicionar ao Carinho</button>
+                    </footer>
+                </article>
+            </div>
+
+            <div class="col-4 ">
+                <article class="card">
+                            
+                    <img class="img-game" src="./Imagens/god.webp">
+                        <div class="card-body">
+                            <h4 class="card-title">God of War</h4>  <!-- Titulo -->
+                                <!--<h5 class="card-subtitle">Subtitulo do Card</h5>  subtitulo -->
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eos? Beatae dolorum, assumenda numquam eum tenetur molestias 
+                                </p>
+                                
+                            </div>
+                            <footer class="card-footer">
+                                <p>
+                                    <del>R$: 250,00</del>
+                                <strong>R$: 99,99</strong>
+                            </p>
+                        <button type="button" class="btn btn-success">Adicionar ao Carinho</button>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
